@@ -1,0 +1,11 @@
+Package: theme_m
+Type: Package
+Title: ggplot2 color theme to beamer color theme mtheme
+Version: 0.1
+Date: 2015-03-25
+Author: Christian Zang
+Imports: ggplot2
+Maintainer: Christian Zang <christian.zang@wzw.tum.de>
+Description: A simple ggplot2 color theme to play nicely with the excellent mtheme beamer theme
+License: GPL-3
+LazyLoad: yes
