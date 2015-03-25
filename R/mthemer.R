@@ -26,4 +26,20 @@ mthemer <- function() {
           ## ,panel.border = element_blank()
           ## ,panel.grid = element_blank()
           )
+  
 }
+
+##' An alternative discrete color scale matching mthemer
+##'
+##' An alternative discrete color scale matching the mthemer ggplot2
+##' theme that goes nicely with the mtheme beamer theme.
+##' @title mthemer discrete colors
+##' @return a scale_color_manual
+##' @export
+##' @aliases scale_color_m1
+scale_colour_m1 <- function() {
+  scale_color_manual(values=c("#22373A", "#EB811B",
+                       "#604C38", "#332288", "#6699CC",
+                       "#44AA99", "#661100", "#882255"))
+}
+
