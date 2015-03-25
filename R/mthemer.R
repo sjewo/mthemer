@@ -9,9 +9,9 @@
 ##' library(ggplot2)
 ##' ggplot(iris) +
 ##' geom_point(aes(x = Sepal.Length, y = Sepal.Width)) +
-##' theme_m()
+##' mthemer()
 ##' @export
-theme_m <- function() {
+mthemer <- function() {
   theme_bw() +
     theme(text = element_text(colour = "#22373A", size = 12)
           ,line = element_line(colour = "#22373A", size = 0.5,

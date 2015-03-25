@@ -1,4 +1,4 @@
-* theme_m
+* mthemer
 
 [[https://github.com/matze/mtheme][mtheme]] is an excellent, lightweight beamer themer latex
 presentations. This ggplot2 theme is meant to go with it.

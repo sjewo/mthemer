@@ -1,4 +1,4 @@
-Package: theme_m
+Package: mthemer
 Type: Package
 Title: ggplot2 color theme to beamer color theme mtheme
 Version: 0.1
