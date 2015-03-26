@@ -39,11 +39,11 @@ mtcols <- function() {
   list(
      darkgreen  = "#22373A"
     ,orange     = "#EB811B"
+    ,lightblue  = "#6699CC"
+    ,redbrown   = "#661100"
+    ,lightgreen = "#44AA99"
     ,darkbrown  = "#604C38"
     ,darkblue   = "#332288"
-    ,lightblue  = "#6699CC"
-    ,lightgreen = "#44AA99"
-    ,redbrown   = "#661100"
     ,violet     = "#882255"
     )
 }
