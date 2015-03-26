@@ -29,6 +29,25 @@ mthemer <- function() {
   
 }
 
+##' mthemer colors for plotting things
+##'
+##' Some nice colors taken from mtheme
+##' @title Nice Colors
+##' @return a list
+##' @export
+mtcols <- function() {
+  list(
+     darkgreen  = "#22373A"
+    ,orange     = "#EB811B"
+    ,darkbrown  = "#604C38"
+    ,darkblue   = "#332288"
+    ,lightblue  = "#6699CC"
+    ,lightgreen = "#44AA99"
+    ,redbrown   = "#661100"
+    ,violet     = "#882255"
+    )
+}
+
 ##' An alternative discrete color scale matching mthemer
 ##'
 ##' An alternative discrete color scale matching the mthemer ggplot2
@@ -38,8 +57,7 @@ mthemer <- function() {
 ##' @export
 ##' @aliases scale_color_m1
 scale_colour_m1 <- function() {
-  scale_color_manual(values=c("#22373A", "#EB811B",
-                       "#604C38", "#332288", "#6699CC",
-                       "#44AA99", "#661100", "#882255"))
+  cols <- 
+  scale_color_manual(values=unlist(mtcols()))
 }
 
