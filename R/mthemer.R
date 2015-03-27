@@ -58,6 +58,6 @@ mtcols <- function() {
 ##' @aliases scale_color_m1
 scale_colour_m1 <- function() {
   cols <- 
-  scale_color_manual(values=unlist(mtcols()))
+  scale_color_manual(values=unname(unlist(mtcols())))
 }
 
