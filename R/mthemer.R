@@ -22,6 +22,7 @@ mthemer <- function() {
              "#22373A")
           ,axis.title = element_text(size = rel(1.2))
           ,plot.background = element_blank()
+          ,legend.background = element_blank()
           ## ,panel.background = element_blank()
           ## ,panel.border = element_blank()
           ## ,panel.grid = element_blank()
