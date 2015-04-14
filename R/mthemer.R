@@ -11,9 +11,9 @@
 ##' geom_point(aes(x = Sepal.Length, y = Sepal.Width)) +
 ##' mthemer()
 ##' @export
-mthemer <- function() {
-  theme_bw() +
-    theme(text = element_text(colour = "#22373A", size = 12)
+mthemer <- function(...) {
+  theme_bw(...) +
+    theme(text = element_text(colour = "#22373A")
           ,line = element_line(colour = "#22373A", size = 0.5,
              linetype = 1, lineend = "butt")
           ,rect = element_rect(fill = "white", colour = "#22373A",
